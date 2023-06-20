@@ -9,6 +9,7 @@ int main(void) {
     int t; cin >> t;
     while(t--) {
         cout<<"hi";
+        vector<int> v(4);
 
     }
 
