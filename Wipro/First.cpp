@@ -15,6 +15,7 @@ int main(void)
         int kk;
         cin>>kk;
         cout<<"hi\n";
+        cout<<"hi";
     }
 
     return 0;
