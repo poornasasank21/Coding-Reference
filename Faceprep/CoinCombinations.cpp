@@ -3,9 +3,11 @@
 #define ld long double
 using namespace std;
 
-string minWindow(string s, string t)
+int ans(int n)
 {
-    int slen=s.length(),tlen=t.length();
+    int a=0;
+    
+    return a;
 }
 
 int main(void) {
