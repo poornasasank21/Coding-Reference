@@ -5,7 +5,7 @@ using namespace std;
 
 int removeDuplicates(vector<int>& nums)
 {
-    int i=1,j=1;
+    int i=0,j=1;
     while(j<nums.size())
     {
         if(nums[i]!=nums[j])

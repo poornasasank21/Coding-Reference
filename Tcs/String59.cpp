@@ -23,11 +23,17 @@ int main(void) {
         sum+=((int)(a-'A'))+1;
     }
     // cout<<sum;
-    int ans=0;
-    while(sum>0)
+    int ans=sum;
+    while(ans>9)
     {
-        ans+=sum%10;
-        sum=sum/10;
+        int k=0;
+        int temp=ans;
+        while(temp>0)
+        {
+            k+=temp%10;
+            temp=temp/10;
+        }
+        ans=k;
     }
     cout<<ans;
 
